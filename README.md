@@ -11,7 +11,7 @@ yarn install
 
 复制项目配置
 ```bash
-cp private-conig.js.example private-config.js
+cp private.config.js.example private.config.js
 ```
 
 开发
