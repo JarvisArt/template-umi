@@ -1,4 +1,4 @@
-const privateConfig = require('./private-config.js');
+const privateConfig = require('./private.config.js');
 
 // ref: https://umijs.org/config/
 export default {
