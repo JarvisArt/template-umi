@@ -1,0 +1,3 @@
+module.exports = {
+  devTarget: 'http://zk.deva.wili.us'
+};

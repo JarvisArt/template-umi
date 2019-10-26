@@ -1,3 +1,4 @@
+const privateConfig = require('./private-config.js');
 
 // ref: https://umijs.org/config/
 export default {
@@ -17,7 +18,7 @@ export default {
       antd: true,
       dva: true,
       dynamicImport: false,
-      title: 'test',
+      title: 'Umi',
       dll: false,
       
       routes: {
@@ -31,4 +32,10 @@ export default {
       },
     }],
   ],
+  proxy: {
+    '/api': {
+      'target': privateConfig.devTarget,
+      'changeOrigin': true,
+    }
+  }
 }
